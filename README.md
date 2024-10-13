@@ -4,4 +4,14 @@ To do this practice I create two codes. The first one "Galton - Board.cpp" is th
 
 When execute the "Galton - Board.cpp" it ask you first the number of balls (n) just enter a number, and then the number of levels of the galton board (N). Then the program throw the output of the numbre of balls in each k-column.
 
-When execute the "MSE_N_B.cpp" it ask you first the number of trials of the binomial distribution (n for galton board) and then the mean of the nomal distribution and the variance. Then the program throw the output of the MSE of each distributions.
+When execute the "MSE_N_B.cpp" it ask you first the number of trials of the binomial distribution (n for galton board) and then the mean of the nomal distribution (Introdcue: n/2) and the variance (Introduce n/4). Then the program throw the output of the MSE of each distributions.
+
+To compile and execute the codes:
+  1- Install the compilator g++ on linux with instructions:
+    >> sudo apt install g++
+  2- compile the code
+    >> g++ -o Galton_Board Galton\ -\ Board.cpp
+    >> g++ -o MSE_N_B MSE_N_B.cpp
+  3 - execute the code
+    >> ./Galton_Board
+    >> ./MSE_N_B
